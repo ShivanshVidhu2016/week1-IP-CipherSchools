@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="thankyou.html" method="get">
+        <lable for="username">Username:</lable>
+        <input type="text" id="username" name="username" placeholder="username" required> <br> <br>
+
+        <lable for="password">Password:</lable>
+        <input type="password" id="password" name="password" placeholder="password" required> <br> <br>
+
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email" placeholder="email" required> <br> <br>
+
+        <p>Select your gender </p>
+        <lable for="male">Male</lable>
+        <input type="radio" name="gender" id="male" value="male"><br>
+        <lable for="female">Female</lable>
+        <input type="radio" name="gender" id="female" value="female"><br>
+        <lable for="other">Other</lable>
+        <input type="radio" name="gender" id="other" value="others"><br>
+        <br>
+
+        <label for="age-group">Select your Age-group</label>
+        <select name="age-group-value" id="age-group" >
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-40">30-40</option>
+            <option value="50+">50+</option>
+        </select><br>
+
+       <br> <input type="submit" value="Sign in">
+    </form>
+</body>
+</html>
